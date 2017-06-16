@@ -1,6 +1,6 @@
 header{
 	background-image: url("images/header.jpg");
-
+	background-size: auto;
 }
 ul {
     list-style-type: none;
@@ -10,7 +10,7 @@ ul {
 
 }
 li {
-    float: left;
+    float: right;
 }
 
 li a {
