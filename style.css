@@ -37,7 +37,7 @@ background-image: url("images/header.jpg");
 
 }
 
-#gallery img{
+	div img{
 	height: 200;
 	display: inline-flex;
 }
