@@ -23,7 +23,7 @@ li a {
     text-decoration: none;
 }
 
-a:hover:not(.active) {
+a:hover {
     background-color: #111;
 }
 
@@ -31,14 +31,14 @@ a:hover:not(.active) {
 background-color:#4CAF50;
 }
 body {
-	/*color: white;*/
+	color: white;
 /*background-color: #475B74;*/
 background-image: url("images/header.jpg");
 
 }
 
-	#gallery{
-	 image-height: 200;
+	img{
+	width: 25%
+	height: auto;
 	display: inline-flex;
 }
-/v  x
