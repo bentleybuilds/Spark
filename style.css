@@ -37,7 +37,8 @@ background-image: url("images/header.jpg");
 
 }
 
-	div+img{
-	height: 200;
+	#gallery{
+	 image-height: 200;
 	display: inline-flex;
 }
+/v  x
