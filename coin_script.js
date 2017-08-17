@@ -1,6 +1,6 @@
 
 
-$("#flip").click(function()) {
+$("#flip").click(function() {
 
   var coin;
   coin = Math.floor((Math.random() * 100) + 1);
@@ -17,4 +17,4 @@ $("#flip").click(function()) {
 
   }
 }
-}
+});
