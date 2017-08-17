@@ -1,6 +1,7 @@
 
 
-function ranFlip(){
+$("#flip").click(function() {
+
   var coin;
   coin = Math.floor((Math.random() * 100) + 1);
   console.log("number generated");
@@ -15,8 +16,4 @@ function ranFlip(){
     console.log("else");
 
   }
-}
-
-$("#flip").click(ranFlip ){
-
 }
