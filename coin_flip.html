@@ -15,7 +15,7 @@
   <script type="text/javascript">
     console.log($)
     console.log("starting")
-    $("button").click(function(){
+    $("#flip").click(function(){
 
 
 
@@ -33,7 +33,9 @@
 
       }
     });
-
+    $("#clear").click(function(){
+      $("ol").html("");
+    });
   </script>
   </body>
 </html>
