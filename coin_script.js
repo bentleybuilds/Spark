@@ -1,9 +1,8 @@
-
-
+console.log($)
+console.log("starting")
 $("#flip").click(function() {
-
-  var coin;
-  coin = Math.floor((Math.random() * 100) + 1);
+console.log("button clicked");
+  var coin = Math.floor((Math.random() * 100) + 1);
   console.log("number generated");
   if (coin <= 50) {
     alert("HEADS!");
