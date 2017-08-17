@@ -1,9 +1,9 @@
 console.log($)
 console.log("starting")
-$("button").click(ranFlip());
+$("button").click(function(){}
 
 
-function ranFlip(){
+
 console.log("button clicked");
   var coin = Math.floor((Math.random() * 100) + 1);
   console.log("number generated");
@@ -13,7 +13,7 @@ console.log("button clicked");
     console.log("if");
 } else {
     alert("TAILS!");
-    $(ol).append("<li>Tails</li>");
+    $("ol").append("<li>Tails</li>");
     console.log("else");
 
   }
