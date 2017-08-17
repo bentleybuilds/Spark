@@ -1,6 +1,9 @@
 console.log($)
 console.log("starting")
-$("button").click(function() {
+$("button").click(ranFlip();
+
+
+function ranFlip(){
 console.log("button clicked");
   var coin = Math.floor((Math.random() * 100) + 1);
   console.log("number generated");
