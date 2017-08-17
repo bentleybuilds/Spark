@@ -1,6 +1,6 @@
 console.log($)
 console.log("starting")
-$("button").click(ranFlip();
+$("button").click(ranFlip());
 
 
 function ranFlip(){
@@ -17,4 +17,4 @@ console.log("button clicked");
     console.log("else");
 
   }
-});
+};
