@@ -9,12 +9,10 @@ $("#flip").click(function() {
     alert("HEADS!");
     $(ol).append("<li>Heads</li>");
     console.log("if");
-}
-  else {
-    {alert("TAILS!");
+} else {
+    alert("TAILS!");
     $(ol).append("<li>Tails</li>");
     console.log("else");
 
   }
-}
-});
+})
