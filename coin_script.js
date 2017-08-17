@@ -1,7 +1,7 @@
-var coin;
 
 
 function ranFlip(){
+  var coin;
   coin = Math.floor((Math.random() * 100) + 1);
   console.log("number generated");
   if (coin <= 50) {
