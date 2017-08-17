@@ -1,6 +1,6 @@
 console.log($)
 console.log("starting")
-$("button").click(function(){}
+$("button").click(function(){
 
 
 
@@ -9,7 +9,7 @@ console.log("button clicked");
   console.log("number generated");
   if (coin <= 50) {
     alert("HEADS!");
-    $(ol).append("<li>Heads</li>");
+    $("ol").append("<li>Heads</li>");
     console.log("if");
 } else {
     alert("TAILS!");
