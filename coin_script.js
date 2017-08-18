@@ -3,7 +3,6 @@ console.log("starting")
 $("#flip").click(function(){
 
 
- //* lets try some jquery
 console.log("button clicked");
   var coin = Math.floor((Math.random() * 100) + 1);
   console.log("number generated");
