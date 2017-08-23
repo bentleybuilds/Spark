@@ -1,0 +1,27 @@
+.coin{
+  display: flex;
+}
+
+.button_flex{
+  margin: auto
+  height: auto
+  display:inline-flex;
+}
+
+@keyframes coinflip {
+  to {
+    transform: rotateY(360deg);
+      }
+        }
+        .coin {
+          border-radius: 10000px;
+          background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/1999_Obverse_Proof.png/220px-1999_Obverse_Proof.png");
+          background-size: cover;
+          height: 100px;
+          width: 100px;
+          background-color: gray;
+          animation-name: coinflip;
+          animation-iteration-count: infinite;
+          animation-duration: 2s;
+          animation-timing-function: linear;
+         }

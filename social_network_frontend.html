@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+ <head>
+     <script src="https://code.jquery.com/jquery-3.1.1.js" charset="utf-8"></script>
+    </head>
+     <body>
+         <input id="input-box"></input>
+           <button>submit</button>
+             <script type="text/javascript">
+              var someValue;
+                  $("button").click(function() {
+                    console.log("clicked");
+                      someValue = document.getElementById('input-box').value
+                        sendData();
+                            });
+                              function sendData() {
+                                someValue = document.getElementById('input-box').value
+                                  $.ajax({
+                                  url: "https://spark-class-social-network-api.hoff.tech/api/posts",          method: "POST",
+                                            data: {
+                                              profile_id: "ken",
+                                              profile_secret: "$2a$04$/.xqP1gi0BH.2C",            content: someValue          }        }).done(function(data) {          console.log(data);        })      }    </script>  </body> </html
