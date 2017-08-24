@@ -1,0 +1,22 @@
+.profile-section{
+  color: white;
+  font-style: normal;
+  border-radius: 300px;
+  border-style: none;
+  margin-right: auto;
+  background-position: center;
+  background-size: cover;
+  background-image: url(images/header.jpg);
+
+}
+
+
+#main-content{
+font-family: verdana;
+background-color: green;
+font-size: 18pt;
+width: auto;
+height: auto;
+padding-top: 200;
+
+}
