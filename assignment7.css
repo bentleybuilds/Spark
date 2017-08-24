@@ -11,6 +11,7 @@
   z-index: auto;
   display: inline;
   border-width: thin;
+  position: static;
 }
 
 
@@ -26,7 +27,17 @@ top: 100px;
 right: 100px;
 bottom: 11px;
 left: 100px;
+position: fixed;
 
 
+}
 
+.another-div{
+  position: absolute;
+  display: inline-block;
+}
+
+.different-div{
+position: relative;
+  display: flex;
 }
