@@ -30,5 +30,5 @@ div div{
 
 #fifth_child{
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-center;
 }
