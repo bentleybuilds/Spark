@@ -1,0 +1,34 @@
+.parent{
+  display: flex;
+}
+
+div div{
+  flex-wrap: wrap;
+}
+
+#first_child{
+  flex-direction: row;
+  justify-content: flex-start;
+
+}
+
+#second_child{
+  justify-content: flex-end;
+  flex-direction: column;
+}
+
+#third_child{
+  justify-content: center;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+#fourth_child{
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+#fifth_child{
+  justify-content: space-between;
+  align-items: center;
+}
